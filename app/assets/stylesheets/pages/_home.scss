@@ -1,1 +1,42 @@
 // Specific CSS for your home-page
+.home-container {
+  width: 800px;
+  margin: auto;
+}
+
+.home-title {
+  text-align: center;
+  padding: 20px;
+  margin-top: 80px;
+  font-weight: bold;
+  font-size: 86px;
+  color: $gray;
+  letter-spacing: 0.73px;
+  &:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    padding-top: 20px;
+    border-bottom: 4px solid $yellow;
+  }
+}
+
+.home-subtitle {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.home-tags {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  margin: auto;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.home-footer {
+  display: flex;
+  justify-content: center;
+}
