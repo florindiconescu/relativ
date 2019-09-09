@@ -1,6 +1,6 @@
 // Specific CSS for your home-page
 .home-container {
-  width: 800px;
+  width: 1000px;
   margin: auto;
 }
 
@@ -18,7 +18,7 @@
       content: "";
       display: block;
       margin: 0 auto;
-      width: 10%;
+      width: 15%;
       padding-top: 20px;
       border-bottom: 4px solid $yellow;
     }
@@ -26,14 +26,17 @@
 }
 
 .home-subtitle {
-  text-align: center;
   margin-bottom: 80px;
+  font-size: 23px;
+  color: $gray;
+  letter-spacing: 0.88px;
+  text-align: center;
 }
 
 .home-tags {
   display: flex;
   flex-wrap: wrap;
-  width: 800px;
+  width: 1000px;
   margin: auto;
   justify-content: center;
   margin-bottom: 40px;
