@@ -1,0 +1,55 @@
+.footer {
+  background-color: #414150;
+  height: 590px;
+  width: 100%;
+  padding: 140px 60px;
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+  .contact-us {
+    color: $white;
+    font-size: 130px;
+    line-height: 130px;
+    font-weight: bold;
+    align-self: center;
+  }
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    a {
+      font-size: 40px;
+      color: #A4A9AC;
+      letter-spacing: 0.38px;
+      text-align: right;
+      &:hover {
+        text-decoration: none;
+        font-weight: bold;
+        color: #FFFFFF;
+        &:after {
+          color: $yellow;
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          content: "\f054";
+          margin-left: 20px;
+          position: relative;
+          top: 4px;
+        }
+      }
+    }
+  }
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .back-home {
+      border-bottom: 2px solid #FFFFFF;
+      text-decoration: none;
+      color: $white;
+      letter-spacing: 0.88px;
+      margin-bottom: 60px;
+      font-size: 23px;
+    }
+  }
+}
